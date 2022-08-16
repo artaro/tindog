@@ -8,13 +8,20 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
 
 h1 {
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
     font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
     line-height: 1.5;
 }
 
@@ -25,7 +32,9 @@ h3 {
 }
 
 p {
-    color: #8f8f8f
+    font-family: 'Montserrat-Light', sans-serif;
+    color: #8f8f8f;
+    font-weight: 500;
 }
 
 /* Navigation Bar */ 
@@ -41,7 +50,7 @@ p {
 .nav-link {
     font-family: 'Montserrat-Light', sans-serif;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .navbar-brand {
@@ -58,15 +67,19 @@ p {
 
 /* Title image */
 
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
+.title-image {    
+  width: 60%;
+  transform: rotate(25deg);
+  /* position: absolute;
+  right: 30%; */
 }
 
 /* Features section */
 
 #features {
     padding: 7% 15%;
+    /* background-color: #fff;
+    position: relative; */
 }
 
 .feature-box {
@@ -81,3 +94,89 @@ p {
 .feature-icon:hover {
     color: #ff4c68;
 }
+
+/* Testimonials section */
+
+#testimonials {
+    padding: 3% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 0 15%;
+}
+
+/* Press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.social-icon:hover {
+    color: #ff4c68;
+}
+
+/* @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+} */
